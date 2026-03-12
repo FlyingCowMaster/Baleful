@@ -1,5 +1,8 @@
 package balefulmod.character;
 
+import balefulmod.cards.basic.Defend;
+import balefulmod.cards.basic.OminousGaze;
+import balefulmod.cards.basic.Strike;
 import basemod.BaseMod;
 import basemod.abstracts.CustomEnergyOrb;
 import basemod.abstracts.CustomPlayer;
@@ -139,11 +142,10 @@ public class Baleful extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        retVal.add(Strike_Red.ID);
-        retVal.add(Strike_Red.ID);
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Neutralize.ID);
+        for(int i=0; i<10;i++) {
+            retVal.add(i<5 ? Strike.ID : Defend.ID);
+        }
+        retVal.add(OminousGaze.ID);
 
         return retVal;
     }

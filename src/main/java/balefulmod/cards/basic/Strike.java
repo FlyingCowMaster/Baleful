@@ -1,5 +1,6 @@
-package balefulmod.cards;
+package balefulmod.cards.basic;
 
+import balefulmod.cards.BaseCard;
 import balefulmod.character.Baleful;
 import balefulmod.util.CardStats;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -9,7 +10,7 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-public class Strike extends BaseCard{
+public class Strike extends BaseCard {
     public static final String ID = makeID(Strike.class.getSimpleName());
     public static final CardStats info = new CardStats(
             Baleful.Meta.CARD_COLOR,

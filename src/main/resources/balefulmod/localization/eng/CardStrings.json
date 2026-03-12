@@ -17,5 +17,10 @@
   "${modID}:Defend": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block"
+  },
+
+  "${modID}:OminousGaze": {
+    "NAME": "Ominous Gaze",
+    "DESCRIPTION": "Apply !M! Omen"
   }
 }
