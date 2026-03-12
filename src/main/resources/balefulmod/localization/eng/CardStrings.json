@@ -22,5 +22,10 @@
   "${modID}:OminousGaze": {
     "NAME": "Ominous Gaze",
     "DESCRIPTION": "Apply !M! Omen"
+  },
+
+  "${modID}:Diminish": {
+    "NAME": "Diminish",
+    "DESCRIPTION": "If target has Omen NL Apply !M! Weak NL Apply !M! Vulnerable NL Remove 1 Omen"
   }
 }

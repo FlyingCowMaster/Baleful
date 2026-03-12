@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class OminousGaze extends BaseCard {
     public static final String ID = makeID(OminousGaze.class.getSimpleName());
-    public static final CardStats info = new CardStats(
+    private static final CardStats info = new CardStats(
             Baleful.Meta.CARD_COLOR,
             CardType.SKILL,
             CardRarity.BASIC,
@@ -19,8 +19,8 @@ public class OminousGaze extends BaseCard {
             1
     );
 
-    public static final int MAGIC = 2;
-    public static final int UPG_MAGIC = 2;
+    private static final int MAGIC = 2;
+    private static final int UPG_MAGIC = 2;
 
     public OminousGaze() {
         super(ID,info);

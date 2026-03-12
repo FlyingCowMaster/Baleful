@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class Strike extends BaseCard {
     public static final String ID = makeID(Strike.class.getSimpleName());
-    public static final CardStats info = new CardStats(
+    private static final CardStats info = new CardStats(
             Baleful.Meta.CARD_COLOR,
             CardType.ATTACK,
             CardRarity.BASIC,
@@ -20,8 +20,8 @@ public class Strike extends BaseCard {
             1
     );
 
-    public static final int DAMAGE = 6;
-    public static final int UPG_DAMAGE = 3;
+    private static final int DAMAGE = 6;
+    private static final int UPG_DAMAGE = 3;
 
     public Strike() {
         super(ID,info);

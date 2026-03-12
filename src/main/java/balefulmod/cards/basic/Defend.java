@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class Defend extends BaseCard {
     public static final String ID = makeID(Defend.class.getSimpleName());
-    public static final CardStats info = new CardStats(
+    private static final CardStats info = new CardStats(
             Baleful.Meta.CARD_COLOR,
             CardType.SKILL,
             CardRarity.BASIC,
@@ -18,8 +18,8 @@ public class Defend extends BaseCard {
             1
     );
 
-    public static final int BLOCK = 5;
-    public static final int UPG_BLOCK = 3;
+    private static final int BLOCK = 5;
+    private static final int UPG_BLOCK = 3;
 
     public Defend() {
         super(ID,info);

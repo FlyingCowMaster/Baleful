@@ -1,6 +1,7 @@
 package balefulmod.character;
 
 import balefulmod.cards.basic.Defend;
+import balefulmod.cards.basic.Diminish;
 import balefulmod.cards.basic.OminousGaze;
 import balefulmod.cards.basic.Strike;
 import basemod.BaseMod;
@@ -146,6 +147,7 @@ public class Baleful extends CustomPlayer {
             retVal.add(i<5 ? Strike.ID : Defend.ID);
         }
         retVal.add(OminousGaze.ID);
+        retVal.add(Diminish.ID);
 
         return retVal;
     }

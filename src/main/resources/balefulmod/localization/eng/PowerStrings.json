@@ -9,7 +9,8 @@
   "${modID}:Omen": {
     "NAME": "Omen",
     "DESCRIPTIONS": [
-      "A sign of misfortune to come. Does nothing on its own, but the Baleful has many ways of making use of it."
+      "A sign of misfortune to come. Does nothing on its own, but the Baleful has many ways of making use of it. Lasts ",
+      " turns"
     ]
   }
 }
