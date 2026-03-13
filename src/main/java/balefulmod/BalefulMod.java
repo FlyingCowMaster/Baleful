@@ -1,6 +1,7 @@
 package balefulmod;
 
 import balefulmod.cards.BaseCard;
+import balefulmod.relics.BaseRelic;
 import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.interfaces.*;
@@ -35,6 +36,7 @@ import java.util.*;
 public class BalefulMod implements
         EditCharactersSubscriber,
         EditCardsSubscriber,
+        EditRelicsSubscriber,
         EditStringsSubscriber,
         EditKeywordsSubscriber,
         AddAudioSubscriber,
@@ -287,5 +289,19 @@ public class BalefulMod implements
                 .packageFilter(BaseCard.class)
                 .setDefaultSeen(true)
                 .cards();
+    }
+
+    @Override
+    public void receiveEditRelics() {
+        new AutoAdd(modID)
+                .packageFilter(BaseRelic.class)
+                .any(BaseRelic.class, (info,relic) -> {
+                    if(relic.pool != null) {
+                        BaseMod.addRelicToCustomPool(relic,relic.pool);
+                    }
+                    else {
+                        BaseMod.addRelic(relic, relic.relicType);
+                    }
+                });
     }
 }

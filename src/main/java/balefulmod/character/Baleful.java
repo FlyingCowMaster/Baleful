@@ -4,6 +4,7 @@ import balefulmod.cards.basic.Defend;
 import balefulmod.cards.basic.Diminish;
 import balefulmod.cards.basic.OminousGaze;
 import balefulmod.cards.basic.Strike;
+import balefulmod.relics.DamagedKeepsake;
 import basemod.BaseMod;
 import basemod.abstracts.CustomEnergyOrb;
 import basemod.abstracts.CustomPlayer;
@@ -156,7 +157,7 @@ public class Baleful extends CustomPlayer {
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
         //IDs of starting relics. You can have multiple, but one is recommended.
-        retVal.add(BurningBlood.ID);
+        retVal.add(DamagedKeepsake.ID);
 
         return retVal;
     }

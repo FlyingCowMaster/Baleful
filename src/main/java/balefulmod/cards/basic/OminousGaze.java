@@ -16,7 +16,7 @@ public class OminousGaze extends BaseCard {
             CardType.SKILL,
             CardRarity.BASIC,
             CardTarget.ENEMY,
-            1
+            0
     );
 
     private static final int MAGIC = 2;

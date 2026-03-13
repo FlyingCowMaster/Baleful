@@ -5,5 +5,14 @@
     "DESCRIPTIONS": [
       "Gain [E] at the start of your turn. [E] is an energy icon."
     ]
+  },
+
+  "${modID}:DamagedKeepsake": {
+    "NAME": "Damaged Keepsake",
+    "FLAVOR": "A small trinket from the Baleful's past. It's in terrible shape.",
+    "DESCRIPTIONS": [
+      "At the start of combat, apply #b",
+      " #yOmen to ALL enemies"
+    ]
   }
 }
