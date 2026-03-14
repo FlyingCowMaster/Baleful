@@ -52,5 +52,10 @@
   "${modID}:NegativeEnergy": {
     "NAME": "Negative Energy",
     "DESCRIPTION": "For every !M! debuffs on ALL combatants, gain [E]"
+  },
+
+  "${modID}:WaveOfLethargy": {
+    "NAME": "Wave of Lethargy",
+    "DESCRIPTION": "ALL combatants with at least 2 *Omen NL Lose !M! Strength this turn NL Gain !M! Weakened NL Lose 2 *Omen"
   }
 }

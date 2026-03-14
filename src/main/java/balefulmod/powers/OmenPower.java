@@ -63,12 +63,12 @@ public class OmenPower extends BasePower{
 
     /**
      * Checks if given AbstractCreature has Omen, preforms action if ture.
-     * Declare a non-negative amount of omen to remove.
+     * Declare an amount of omen to remove.
      *
      * @param target Creature to check Omen of
      * @param source Creature action is from
      * @param action Action preformed if Creature has Omen
-     * @param amountToRemove Amount of Omen removed from target, must be non-negative
+     * @param amountToRemove Amount of Omen removed from target
      */
     public static void omenAction(AbstractCreature target, AbstractCreature source, AbstractGameAction action, int amountToRemove) {
         if (target.hasPower(POWER_ID)) {

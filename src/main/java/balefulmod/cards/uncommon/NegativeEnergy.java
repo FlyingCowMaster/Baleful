@@ -3,6 +3,7 @@ package balefulmod.cards.uncommon;
 import balefulmod.cards.BaseCard;
 import balefulmod.character.Baleful;
 import balefulmod.util.CardStats;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -43,5 +44,10 @@ public class NegativeEnergy extends BaseCard {
             }
         }
         p.gainEnergy(debuffCount/this.magicNumber);
+    }
+
+    @Override
+    public AbstractCard makeCopy() {
+        return new NegativeEnergy();
     }
 }
