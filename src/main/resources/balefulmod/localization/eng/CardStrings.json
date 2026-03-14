@@ -57,5 +57,11 @@
   "${modID}:WaveOfLethargy": {
     "NAME": "Wave of Lethargy",
     "DESCRIPTION": "ALL combatants with at least 2 *Omen NL Lose !M! Strength this turn NL Gain !M! Weakened NL Lose 2 *Omen"
+  },
+
+  "${modID}:LifeTransference": {
+    "NAME": "Life Transference",
+    "DESCRIPTION": "ALL enemies lose HP equal to their *Omen, Then lose all *Omen. Heal HP equal to damage. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "ALL enemies lose HP equal to their *Omen, Then lose half *Omen. Heal HP equal to damage. NL Exhaust"
   }
 }

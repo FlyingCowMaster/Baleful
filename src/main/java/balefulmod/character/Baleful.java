@@ -144,8 +144,8 @@ public class Baleful extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        for(int i=0; i<10;i++) {
-            retVal.add(i<5 ? Strike.ID : Defend.ID);
+        for(int i=0; i<8;i++) {
+            retVal.add(i<4 ? Strike.ID : Defend.ID);
         }
         retVal.add(OminousGaze.ID);
         retVal.add(Diminish.ID);
