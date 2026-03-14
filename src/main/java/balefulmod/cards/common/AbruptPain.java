@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class AbruptPain extends BaseCard {
-    public static final String ID = makeID("AbruptPain");
+    public static final String ID = makeID(AbruptPain.class.getSimpleName());
     private static final CardStats info = new CardStats(
             Baleful.Meta.CARD_COLOR,
             CardType.ATTACK,

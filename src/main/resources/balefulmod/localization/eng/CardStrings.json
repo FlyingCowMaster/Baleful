@@ -37,5 +37,20 @@
   "${modID}:AbruptPain": {
     "NAME": "Abrupt Pain",
     "DESCRIPTION": "If target has *Omen, deal !D! damage. NL Remove 1 *Omen"
+  },
+
+  "${modID}:ForebodingAura": {
+    "NAME": "Foreboding Aura",
+    "DESCRIPTION": "Apply !M! *Omen to ALL enemies"
+  },
+
+  "${modID}:ScornfulRetreat": {
+    "NAME": "Scornful Retreat",
+    "DESCRIPTION": "Gain !B! Block NL Apply !M! *Omen to an enemy"
+  },
+
+  "${modID}:NegativeEnergy": {
+    "NAME": "Negative Energy",
+    "DESCRIPTION": "For every !M! debuffs on ALL combatants, gain [E]"
   }
 }
