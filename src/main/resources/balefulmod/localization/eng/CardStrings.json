@@ -26,6 +26,16 @@
 
   "${modID}:Diminish": {
     "NAME": "Diminish",
-    "DESCRIPTION": "If target has *Omen NL Apply !M! Weak NL Apply !M! Vulnerable NL Remove 1 Omen"
+    "DESCRIPTION": "If target has *Omen NL Apply !M! Weak NL Apply !M! Vulnerable NL Remove 1 *Omen"
+  },
+
+  "${modID}:ConjureWounds": {
+    "NAME": "Conjure Wounds",
+    "DESCRIPTION": "Deal !D! damage for each *Omen on the target NL Remove *Omen from target"
+  },
+
+  "${modID}:AbruptPain": {
+    "NAME": "Abrupt Pain",
+    "DESCRIPTION": "If target has *Omen, deal !D! damage. NL Remove 1 *Omen"
   }
 }
