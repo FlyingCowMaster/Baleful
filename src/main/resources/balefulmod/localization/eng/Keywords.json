@@ -27,5 +27,12 @@
     ],
     "DESCRIPTION": "Using the COLOR field, this keyword is colored pink instead of the normal keyword color.",
     "COLOR": "fc83da"
+  },
+  {
+    "PROPER_NAME": "Omen",
+    "NAMES": [
+      "omen"
+    ],
+    "DESCRIPTION": "A sign of misfortune to come. Does nothing on its own, but the Baleful has many ways of making use of it. Decreases by 1 at the end of turn."
   }
 ]

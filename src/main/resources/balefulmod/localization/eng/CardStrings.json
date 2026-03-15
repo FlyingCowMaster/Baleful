@@ -21,32 +21,32 @@
 
   "${modID}:OminousGaze": {
     "NAME": "Ominous Gaze",
-    "DESCRIPTION": "Apply !M! *Omen"
+    "DESCRIPTION": "Apply !M! ${modID}:Omen"
   },
 
   "${modID}:Diminish": {
     "NAME": "Diminish",
-    "DESCRIPTION": "If target has *Omen NL Apply !M! Weak NL Apply !M! Vulnerable NL Remove 1 *Omen"
+    "DESCRIPTION": "If target has ${modID}:Omen NL Apply !M! Weak NL Apply !M! Vulnerable NL Remove 1 ${modID}:Omen"
   },
 
   "${modID}:ConjureWounds": {
     "NAME": "Conjure Wounds",
-    "DESCRIPTION": "Deal !D! damage for each *Omen on the target NL Remove *Omen from target"
+    "DESCRIPTION": "Deal !D! damage for each ${modID}:Omen on the target NL Remove ${modID}:Omen from target"
   },
 
   "${modID}:AbruptPain": {
     "NAME": "Abrupt Pain",
-    "DESCRIPTION": "If target has *Omen, deal !D! damage. NL Remove 1 *Omen"
+    "DESCRIPTION": "If target has ${modID}:Omen, deal !D! damage. NL Remove 1 ${modID}:Omen"
   },
 
   "${modID}:ForebodingAura": {
     "NAME": "Foreboding Aura",
-    "DESCRIPTION": "Apply !M! *Omen to ALL enemies"
+    "DESCRIPTION": "Apply !M! ${modID}:Omen to ALL enemies"
   },
 
   "${modID}:ScornfulRetreat": {
     "NAME": "Scornful Retreat",
-    "DESCRIPTION": "Gain !B! Block NL Apply !M! *Omen to an enemy"
+    "DESCRIPTION": "Gain !B! Block NL Apply !M! ${modID}:Omen to an enemy"
   },
 
   "${modID}:NegativeEnergy": {
@@ -56,12 +56,17 @@
 
   "${modID}:WaveOfLethargy": {
     "NAME": "Wave of Lethargy",
-    "DESCRIPTION": "ALL combatants with at least 2 *Omen NL Lose !M! Strength this turn NL Gain !M! Weakened NL Lose 2 *Omen"
+    "DESCRIPTION": "ALL combatants with at least 2 ${modID}:Omen NL Lose !M! Strength this turn NL Gain !M! Weak NL Lose 2 ${modID}:Omen"
   },
 
   "${modID}:LifeTransference": {
     "NAME": "Life Transference",
-    "DESCRIPTION": "ALL enemies lose HP equal to their *Omen, Then lose all *Omen. Heal HP equal to damage. NL Exhaust",
-    "UPGRADE_DESCRIPTION": "ALL enemies lose HP equal to their *Omen, Then lose half *Omen. Heal HP equal to damage. NL Exhaust"
-  }
+    "DESCRIPTION": "ALL enemies lose HP equal to their ${modID}:Omen, Then lose all ${modID}:Omen. Heal HP equal to damage. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "ALL enemies lose HP equal to their ${modID}:Omen, Then lose half ${modID}:Omen. Heal HP equal to damage. NL Exhaust"
+  },
+
+    "${modID}:DawnOfCalamity": {
+      "NAME": "Dawn of Calamity",
+      "DESCRIPTION": "Apply !M! ${modID}:Omen to ALL combatants. NL Exhaust"
+    }
 }

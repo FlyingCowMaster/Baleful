@@ -12,7 +12,7 @@
     "FLAVOR": "A small trinket from the Baleful's past. It's in terrible shape.",
     "DESCRIPTIONS": [
       "At the start of combat, apply #b",
-      " #yOmen to ALL combatants"
+      " #y${modID}:Omen to ALL combatants"
     ]
   }
 }
