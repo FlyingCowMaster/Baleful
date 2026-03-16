@@ -68,5 +68,21 @@
     "${modID}:DawnOfCalamity": {
       "NAME": "Dawn of Calamity",
       "DESCRIPTION": "Apply !M! ${modID}:Omen to ALL combatants. NL Exhaust"
-    }
+    },
+
+  "${modID}:ExpelSoul": {
+    "NAME": "Expel Soul",
+    "DESCRIPTION": "Deal !D! damage to a random enemy for each debuff you have. NL Remove ALL debuffs"
+  },
+
+  "${modID}:NarrowVision": {
+    "NAME": "Narrow Vision",
+    "DESCRIPTION": "Draw !M! cards NL Gain [E] [E] NL Whenever you play a card this turn, lose 1 HP",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards NL Gain [E] [E] [E] NL Whenever you play a card this turn, lose 1 HP"
+  },
+
+  "${modID}:Overextension": {
+    "NAME": "Overextension",
+    "DESCRIPTION": "Deal !D! damage twice NL Apply 1 Vulnerable to yourself"
+  }
 }
