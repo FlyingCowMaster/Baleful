@@ -12,5 +12,13 @@
       "A sign of misfortune to come. Does nothing on its own, but the Baleful has many ways of making use of it. Lasts ",
       " turns"
     ]
+  },
+
+  "${modID}:MaskThePain": {
+    "NAME": "Mask The Pain",
+    "DESCRIPTIONS": [
+      "Whenever you gain a debuff, gain #b",
+      " block."
+    ]
   }
 }

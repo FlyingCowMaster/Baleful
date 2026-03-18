@@ -84,5 +84,20 @@
   "${modID}:Overextension": {
     "NAME": "Overextension",
     "DESCRIPTION": "Deal !D! damage twice NL Apply 1 Vulnerable to yourself"
+  },
+
+  "${modID}:VexingStrike": {
+    "NAME": "Vexing Strike",
+    "DESCRIPTION": "Deal !D! damage NL Apply !M! ${modID}:Omen"
+  },
+
+  "${modID}:SomberMemories": {
+    "NAME": "Somber Memories",
+    "DESCRIPTION": "ALL combatants take 10% extra damage per card played each turn"
+  },
+
+  "${modID}:MaskThePain": {
+    "NAME": "Mask The Pain",
+    "DESCRIPTION": "Whenever you gain a debuff, gain !M! Block."
   }
 }
