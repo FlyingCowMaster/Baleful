@@ -99,5 +99,16 @@
   "${modID}:MaskThePain": {
     "NAME": "Mask The Pain",
     "DESCRIPTION": "Whenever you gain a debuff, gain !M! Block."
+  },
+
+  "${modID}:Withdrawn": {
+    "NAME": "Withdrawn",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! weak."
+  },
+
+  "${modID}:PervasiveThreat": {
+    "NAME": "Pervasive Threat",
+    "DESCRIPTION": "ALL enemies lose artifact, then gain !M! ${modID}:Omen NL Exhaust"
+    "UPGRADE_DESCRIPTION": "Innate NL ALL enemies lose artifact, then gain !M! ${modID}:Omen NL Exhaust"
   }
 }
