@@ -108,7 +108,17 @@
 
   "${modID}:PervasiveThreat": {
     "NAME": "Pervasive Threat",
-    "DESCRIPTION": "ALL enemies lose artifact, then gain !M! ${modID}:Omen NL Exhaust"
+    "DESCRIPTION": "ALL enemies lose artifact, then gain !M! ${modID}:Omen NL Exhaust",
     "UPGRADE_DESCRIPTION": "Innate NL ALL enemies lose artifact, then gain !M! ${modID}:Omen NL Exhaust"
+  },
+
+  "${modID}:CurseBlast": {
+    "NAME": "Curse Blast",
+    "DESCRIPTION": "If you have ${modID}:Omen NL Deal !D! damage to ALL enemies NL Lose 1 ${modID}:Omen"
+  },
+
+  "${modID}:RuptureOrgans": {
+    "NAME": "Rupture Organs",
+    "DESCRIPTION": "Enemy loses X Strength and gains X Weak where X is equal to the ${modID}:Omen on the enemy NL Enemy loses ALL Omen NL Exhaust"
   }
 }
