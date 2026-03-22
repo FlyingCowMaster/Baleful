@@ -72,7 +72,7 @@
 
   "${modID}:ExpelSoul": {
     "NAME": "Expel Soul",
-    "DESCRIPTION": "Deal !D! damage to a random enemy for each debuff you have. NL Remove ALL debuffs"
+    "DESCRIPTION": "Deal !M! damage to a random enemy for each debuff you have. NL Remove ALL debuffs"
   },
 
   "${modID}:NarrowVision": {
@@ -120,5 +120,11 @@
   "${modID}:RuptureOrgans": {
     "NAME": "Rupture Organs",
     "DESCRIPTION": "Enemy loses X Strength and gains X Weak where X is equal to the ${modID}:Omen on the enemy NL Enemy loses ALL Omen NL Exhaust"
+  },
+
+  "${modID}:UtterDespair": {
+    "NAME": "Utter Despair",
+    "DESCRIPTION": "Unplayable NL Start of turn, lose !M! strength NL gain !M! Weak, Vulnerable, and Frail NL Retain",
+    "EXTENDED_DESCRIPTION": ["You feel despair knowing that this card cannot be player..."]
   }
 }
