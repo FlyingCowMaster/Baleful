@@ -124,7 +124,18 @@
 
   "${modID}:UtterDespair": {
     "NAME": "Utter Despair",
-    "DESCRIPTION": "Unplayable NL Start of turn, lose !M! strength NL gain !M! Weak, Vulnerable, and Frail NL Retain",
+    "DESCRIPTION": "Unplayable NL While in hand, at the start of your turn lose !M! strength NL gain !M! Weak, Vulnerable, and Frail NL Retain",
     "EXTENDED_DESCRIPTION": ["You feel despair knowing that this card cannot be player..."]
+  },
+
+  "${modID}:NegativeSlop": {
+    "NAME": "Negative Slop",
+    "DESCRIPTION": "Start of turn, apply !M! random debuffs to ALL combatants"
+  },
+
+  "${modID}:Apathy": {
+    "NAME": "Apathy",
+    "DESCRIPTION": "Convert ALL of you debuffs into ${modID}:Omen",
+    "UPGRADE_DESCRIPTION": "Remove ALL of your debuffs NL Gain ${modID}:Omen equal to debuffs removed NL Retain"
   }
 }

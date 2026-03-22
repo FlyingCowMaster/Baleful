@@ -20,5 +20,13 @@
       "Whenever you gain a debuff, gain #b",
       " block."
     ]
+  },
+
+  "${modID}:NegativeSlop": {
+    "NAME": "Negative Slop",
+    "DESCRIPTIONS": [
+      "Start of turn, ALL combatants gain a random debuff with #b",
+      " stacks"
+    ]
   }
 }
