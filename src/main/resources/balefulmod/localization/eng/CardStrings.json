@@ -148,5 +148,15 @@
   "${modID}:LingeringMemory": {
     "NAME": "Lingering Memory",
     "DESCRIPTION": "While in hand, gain !M! ${modID}:Omen at the start of your turn. NL When played, gain 2 ${modID}:Omen"
+  },
+
+  "${modID}:LashOut": {
+    "NAME": "Lash Out",
+    "DESCRIPTION": "Deal !D! damage X times, where X is the number of unique debuffs you have."
+  },
+
+  "${modID}:CurseBarrier": {
+    "NAME": "Curse Barrier",
+    "DESCRIPTION": "If you have ${modID}:Omen, gain !B! Block. NL Lose 1 ${modID}:Omen"
   }
 }
