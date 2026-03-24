@@ -21,4 +21,11 @@ public class CustomUtils {
         }
         return amt;
     }
+
+    public static int getSpecificDebuffCount(AbstractCreature c, String debuff) {
+        if (c.hasPower(debuff)) {
+            return c.getPower(debuff).amount;
+        }
+        return 0;
+    }
 }

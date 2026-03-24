@@ -137,5 +137,16 @@
     "NAME": "Apathy",
     "DESCRIPTION": "Convert ALL of you debuffs into ${modID}:Omen",
     "UPGRADE_DESCRIPTION": "Remove ALL of your debuffs NL Gain ${modID}:Omen equal to debuffs removed NL Retain"
+  },
+
+  "${modID}:HaltTime": {
+    "NAME": "Halt Time",
+    "DESCRIPTION": "If ALL enemies have at least 10 ${modID}:Omen, Take an extra turn after this one and end your current turn. NL ALL enemies lose 10 ${modID}:Omen",
+    "EXTENDED_DESCRIPTION": ["ALL enemies must have at least 10 ${modID}:Omen"]
+  },
+
+  "${modID}:LingeringMemory": {
+    "NAME": "Lingering Memory",
+    "DESCRIPTION": "While in hand, gain !M! ${modID}:Omen at the start of your turn. NL When played, gain 2 ${modID}:Omen"
   }
 }
