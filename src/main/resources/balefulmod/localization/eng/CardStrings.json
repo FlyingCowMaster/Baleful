@@ -158,5 +158,16 @@
   "${modID}:CurseBarrier": {
     "NAME": "Curse Barrier",
     "DESCRIPTION": "If you have ${modID}:Omen, gain !B! Block. NL Lose 1 ${modID}:Omen"
+  },
+
+  "${modID}:SlowTime": {
+    "NAME": "Slow Time",
+    "DESCRIPTION": "If the target has ${modID}:Omen, draw !M! cards and remove "
+  },
+
+  "${modID}:SoulIgnitionRitual": {
+    "NAME": "Soul Ignition Ritual",
+    "DESCRIPTION": "ALL combatants lose HP equal to the debuffs they have. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "ALL combatants lost HP equal to the debuffs they have."
   }
 }
