@@ -28,5 +28,13 @@
       "Start of turn, ALL combatants gain a random debuff with #b",
       " stacks"
     ]
+  },
+
+  "${modID}:ImminentHarm": {
+    "NAME": "Imminent Harm",
+    "DESCRIPTIONS": [
+      "End of turn, #b",
+      " takes damage equal to the amount of #bOmen they have"
+    ]
   }
 }

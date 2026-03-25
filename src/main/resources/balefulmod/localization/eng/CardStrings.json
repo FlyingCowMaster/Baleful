@@ -169,5 +169,10 @@
     "NAME": "Soul Ignition Ritual",
     "DESCRIPTION": "ALL combatants lose HP equal to the debuffs they have. NL Exhaust",
     "UPGRADE_DESCRIPTION": "ALL combatants lost HP equal to the debuffs they have."
+  },
+
+  "${modID}:CurseOfAnguish": {
+    "NAME": "Curse of Anguish",
+    "DESCRIPTION": "At the end of their turn, target loses HP equal to their ${modID}:Omen."
   }
 }
