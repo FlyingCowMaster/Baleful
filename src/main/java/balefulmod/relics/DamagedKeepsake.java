@@ -24,9 +24,11 @@ public class DamagedKeepsake extends BaseRelic{
     @Override
     public void atBattleStart() {
         flash();
+        addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new OmenPower(AbstractDungeon.player,OMEN), OMEN, true));
+        addToBot(new RelicAboveCreatureAction(AbstractDungeon.player,this));
         for (AbstractMonster m : AbstractDungeon.getCurrRoom().monsters.monsters) {
-            addToBot(new RelicAboveCreatureAction(m,this));
             addToBot(new ApplyPowerAction(m, AbstractDungeon.player, new OmenPower(m,OMEN), OMEN, true));
+            addToBot(new RelicAboveCreatureAction(m,this));
         }
     }
 

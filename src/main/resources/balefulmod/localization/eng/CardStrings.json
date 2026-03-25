@@ -21,11 +21,163 @@
 
   "${modID}:OminousGaze": {
     "NAME": "Ominous Gaze",
-    "DESCRIPTION": "Apply !M! *Omen"
+    "DESCRIPTION": "Apply !M! ${modID}:Omen"
   },
 
   "${modID}:Diminish": {
     "NAME": "Diminish",
-    "DESCRIPTION": "If target has *Omen NL Apply !M! Weak NL Apply !M! Vulnerable NL Remove 1 Omen"
+    "DESCRIPTION": "If target has ${modID}:Omen NL Apply !M! Weak NL Apply !M! Vulnerable NL Remove 1 ${modID}:Omen"
+  },
+
+  "${modID}:ConjureWounds": {
+    "NAME": "Conjure Wounds",
+    "DESCRIPTION": "Deal !D! damage for each ${modID}:Omen on the target NL Remove ${modID}:Omen from target"
+  },
+
+  "${modID}:AbruptPain": {
+    "NAME": "Abrupt Pain",
+    "DESCRIPTION": "If target has ${modID}:Omen, deal !D! damage. NL Remove 1 ${modID}:Omen"
+  },
+
+  "${modID}:ForebodingAura": {
+    "NAME": "Foreboding Aura",
+    "DESCRIPTION": "Apply !M! ${modID}:Omen to ALL enemies"
+  },
+
+  "${modID}:ScornfulRetreat": {
+    "NAME": "Scornful Retreat",
+    "DESCRIPTION": "Gain !B! Block NL Apply !M! ${modID}:Omen to an enemy"
+  },
+
+  "${modID}:NegativeEnergy": {
+    "NAME": "Negative Energy",
+    "DESCRIPTION": "For every !M! debuffs on ALL combatants, gain [E]"
+  },
+
+  "${modID}:WaveOfLethargy": {
+    "NAME": "Wave of Lethargy",
+    "DESCRIPTION": "ALL combatants with at least 2 ${modID}:Omen NL Lose !M! Strength this turn NL Gain !M! Weak NL Lose 2 ${modID}:Omen"
+  },
+
+  "${modID}:LifeTransference": {
+    "NAME": "Life Transference",
+    "DESCRIPTION": "ALL enemies lose HP equal to their ${modID}:Omen, Then lose all ${modID}:Omen. Heal HP equal to damage. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "ALL enemies lose HP equal to their ${modID}:Omen, Then lose half ${modID}:Omen. Heal HP equal to damage. NL Exhaust"
+  },
+
+    "${modID}:DawnOfCalamity": {
+      "NAME": "Dawn of Calamity",
+      "DESCRIPTION": "Apply !M! ${modID}:Omen to ALL combatants. NL Exhaust"
+    },
+
+  "${modID}:ExpelSoul": {
+    "NAME": "Expel Soul",
+    "DESCRIPTION": "Deal !M! damage to a random enemy for each debuff you have. NL Remove ALL debuffs"
+  },
+
+  "${modID}:NarrowVision": {
+    "NAME": "Narrow Vision",
+    "DESCRIPTION": "Draw !M! cards NL Gain [E] [E] NL Whenever you play a card this turn, lose 1 HP",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards NL Gain [E] [E] [E] NL Whenever you play a card this turn, lose 1 HP"
+  },
+
+  "${modID}:Overextension": {
+    "NAME": "Overextension",
+    "DESCRIPTION": "Deal !D! damage twice NL Apply 1 Vulnerable to yourself"
+  },
+
+  "${modID}:VexingStrike": {
+    "NAME": "Vexing Strike",
+    "DESCRIPTION": "Deal !D! damage NL Apply !M! ${modID}:Omen"
+  },
+
+  "${modID}:SomberMemories": {
+    "NAME": "Somber Memories",
+    "DESCRIPTION": "ALL combatants take 10% extra damage per card played each turn"
+  },
+
+  "${modID}:MaskThePain": {
+    "NAME": "Mask The Pain",
+    "DESCRIPTION": "Whenever you gain a debuff, gain !M! Block."
+  },
+
+  "${modID}:Withdrawn": {
+    "NAME": "Withdrawn",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! weak."
+  },
+
+  "${modID}:PervasiveThreat": {
+    "NAME": "Pervasive Threat",
+    "DESCRIPTION": "ALL enemies lose artifact, then gain !M! ${modID}:Omen NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Innate NL ALL enemies lose artifact, then gain !M! ${modID}:Omen NL Exhaust"
+  },
+
+  "${modID}:CurseBlast": {
+    "NAME": "Curse Blast",
+    "DESCRIPTION": "If you have ${modID}:Omen NL Deal !D! damage to ALL enemies NL Lose 1 ${modID}:Omen"
+  },
+
+  "${modID}:RuptureOrgans": {
+    "NAME": "Rupture Organs",
+    "DESCRIPTION": "Enemy loses X Strength and gains X Weak where X is equal to the ${modID}:Omen on the enemy NL Enemy loses ALL Omen NL Exhaust"
+  },
+
+  "${modID}:UtterDespair": {
+    "NAME": "Utter Despair",
+    "DESCRIPTION": "Unplayable NL While in hand, at the start of your turn lose !M! strength NL gain !M! Weak, Vulnerable, and Frail NL Retain",
+    "EXTENDED_DESCRIPTION": ["You feel despair knowing that this card cannot be player..."]
+  },
+
+  "${modID}:NegativeSlop": {
+    "NAME": "Negative Slop",
+    "DESCRIPTION": "Start of turn, apply !M! random debuffs to ALL combatants"
+  },
+
+  "${modID}:Apathy": {
+    "NAME": "Apathy",
+    "DESCRIPTION": "Convert ALL of you debuffs into ${modID}:Omen",
+    "UPGRADE_DESCRIPTION": "Remove ALL of your debuffs NL Gain ${modID}:Omen equal to debuffs removed NL Retain"
+  },
+
+  "${modID}:HaltTime": {
+    "NAME": "Halt Time",
+    "DESCRIPTION": "If ALL enemies have at least 10 ${modID}:Omen, Take an extra turn after this one and end your current turn. NL ALL enemies lose 10 ${modID}:Omen",
+    "EXTENDED_DESCRIPTION": ["ALL enemies must have at least 10 ${modID}:Omen"]
+  },
+
+  "${modID}:LingeringMemory": {
+    "NAME": "Lingering Memory",
+    "DESCRIPTION": "While in hand, gain !M! ${modID}:Omen at the start of your turn. NL When played, gain 2 ${modID}:Omen"
+  },
+
+  "${modID}:LashOut": {
+    "NAME": "Lash Out",
+    "DESCRIPTION": "Deal !D! damage. NL Hits an additional time for each unique debuffs you have."
+  },
+
+  "${modID}:CurseBarrier": {
+    "NAME": "Curse Barrier",
+    "DESCRIPTION": "If you have ${modID}:Omen, gain !B! Block. NL Lose 1 ${modID}:Omen"
+  },
+
+  "${modID}:SlowTime": {
+    "NAME": "Slow Time",
+    "DESCRIPTION": "If the target has ${modID}:Omen, draw !M! cards and remove "
+  },
+
+  "${modID}:SoulIgnitionRitual": {
+    "NAME": "Soul Ignition Ritual",
+    "DESCRIPTION": "ALL combatants lose HP equal to the debuffs they have. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "ALL combatants lost HP equal to the debuffs they have."
+  },
+
+  "${modID}:CurseOfAnguish": {
+    "NAME": "Curse of Anguish",
+    "DESCRIPTION": "At the end of their turn, target loses HP equal to their ${modID}:Omen."
+  },
+
+  "${modID}:FesteringFury": {
+    "NAME": "Festering Fury",
+    "DESCRIPTION": "Retain. NL Deal !D! damage. NL When retained, increase damage by !M! for each debuff you have for this combat."
   }
 }

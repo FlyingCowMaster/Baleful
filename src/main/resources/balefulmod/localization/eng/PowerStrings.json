@@ -12,5 +12,29 @@
       "A sign of misfortune to come. Does nothing on its own, but the Baleful has many ways of making use of it. Lasts ",
       " turns"
     ]
+  },
+
+  "${modID}:MaskThePain": {
+    "NAME": "Mask The Pain",
+    "DESCRIPTIONS": [
+      "Whenever you gain a debuff, gain #b",
+      " block."
+    ]
+  },
+
+  "${modID}:NegativeSlop": {
+    "NAME": "Negative Slop",
+    "DESCRIPTIONS": [
+      "Start of turn, ALL combatants gain a random debuff with #b",
+      " stacks"
+    ]
+  },
+
+  "${modID}:ImminentHarm": {
+    "NAME": "Imminent Harm",
+    "DESCRIPTIONS": [
+      "End of turn, #b",
+      " takes damage equal to the amount of #bOmen they have"
+    ]
   }
 }
