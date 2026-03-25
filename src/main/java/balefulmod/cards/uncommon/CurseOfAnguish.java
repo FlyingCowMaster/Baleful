@@ -3,7 +3,6 @@ package balefulmod.cards.uncommon;
 import balefulmod.cards.BaseCard;
 import balefulmod.character.Baleful;
 import balefulmod.powers.ImminentHarmPower;
-import balefulmod.powers.OmenPower;
 import balefulmod.util.CardStats;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;

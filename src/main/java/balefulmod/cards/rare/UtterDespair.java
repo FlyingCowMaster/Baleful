@@ -20,7 +20,7 @@ public class UtterDespair extends BaseCard {
             -2
     );
 
-    private static final int MAGIC = 20;
+    private static final int MAGIC = 5;
     private static final int UPG_MAGIC = 5;
 
     public UtterDespair() {

@@ -152,7 +152,7 @@
 
   "${modID}:LashOut": {
     "NAME": "Lash Out",
-    "DESCRIPTION": "Deal !D! damage X times, where X is the number of unique debuffs you have."
+    "DESCRIPTION": "Deal !D! damage. NL Hits an additional time for each unique debuffs you have."
   },
 
   "${modID}:CurseBarrier": {
@@ -174,5 +174,10 @@
   "${modID}:CurseOfAnguish": {
     "NAME": "Curse of Anguish",
     "DESCRIPTION": "At the end of their turn, target loses HP equal to their ${modID}:Omen."
+  },
+
+  "${modID}:FesteringFury": {
+    "NAME": "Festering Fury",
+    "DESCRIPTION": "Retain. NL Deal !D! damage. NL When retained, increase damage by !M! for each debuff you have for this combat."
   }
 }
