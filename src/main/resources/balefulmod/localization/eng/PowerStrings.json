@@ -36,5 +36,12 @@
       "End of turn, #b",
       " takes damage equal to the amount of #bOmen they have"
     ]
+  },
+
+  "${modID}:Indifference": {
+    "NAME": "Indifference",
+    "DESCRIPTIONS": [
+      "This turn, all damage is converted to #bOmen. Next turn, lose HP equal to #bOmen."
+    ]
   }
 }

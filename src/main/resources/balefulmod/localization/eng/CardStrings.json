@@ -179,5 +179,23 @@
   "${modID}:FesteringFury": {
     "NAME": "Festering Fury",
     "DESCRIPTION": "Retain. NL Deal !D! damage. NL When retained, increase damage by !M! for each debuff you have for this combat."
+  },
+
+  "${modID}:PastHauntings": {
+    "NAME": "Past Hauntings",
+    "DESCRIPTION": "Unplayable. NL While in hand, at the end of turn, put 1 card from your discard pile into your hand and Retain it. NL Next turn draw 1 less card. Nl Retain",
+    "UPGRADE_DESCRIPTION": "Put a card from you discard pile into your hand. NL While in hand, at the end of turn, put 1 card from your discard pile into your hand and Retain it. NL Next turn draw 1 less card.",
+    "EXTENDED_DESCRIPTION": ["This card is unplayable"]
+  },
+
+  "${modID}:ForgetThePast": {
+    "NAME": "Forget the Past",
+    "DESCRIPTION": "Discard all retain cards in hand. Draw !M! cards for each card discarded."
+  },
+
+  "${modID}:Indifference": {
+    "NAME": "Indifference",
+    "DESCRIPTION": "This turn, all damage is converted to ${modID}:Omen. Nl At the end of next turn, lose HP equal to ${modID}:Omen.",
+    "UPGRADE_DESCRIPTION": "This turn, all damage is converted to ${modID}:Omen. Nl At the end of next turn, lose HP equal to ${modID}:Omen. NL Retain."
   }
 }
