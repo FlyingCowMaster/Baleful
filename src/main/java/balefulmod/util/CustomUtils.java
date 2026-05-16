@@ -12,6 +12,10 @@ import java.util.Arrays;
 public class CustomUtils {
 //    public static ArrayList<AbstractPower> DEBUFFS = new ArrayList<>(Arrays.asList(OmenPower, ));
 
+    /**
+     * @param c Creature to check
+     * @return Number of debuffs on specific creature
+     */
     public static int getDebuffCount(AbstractCreature c) {
         int amt = 0;
         for (AbstractPower pow : c.powers) {
@@ -22,6 +26,23 @@ public class CustomUtils {
         return amt;
     }
 
+    /**
+     * @return number of debuffs on all monsters the player
+     */
+    public static int getAllDebuffsCount() {
+        int amt = 0;
+        for (AbstractCreature c : AbstractDungeon.getCurrRoom().monsters.monsters) {
+            amt += getDebuffCount(c);
+        }
+        amt += getDebuffCount(AbstractDungeon.player);
+        return amt;
+    }
+
+    /**
+     * @param c - creature to check
+     * @param debuff - debuff to check
+     * @return Number of specified debuffs on target
+     */
     public static int getSpecificDebuffCount(AbstractCreature c, String debuff) {
         if (c.hasPower(debuff)) {
             return c.getPower(debuff).amount;

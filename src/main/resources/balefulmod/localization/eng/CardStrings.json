@@ -195,7 +195,17 @@
 
   "${modID}:Indifference": {
     "NAME": "Indifference",
-    "DESCRIPTION": "This turn, all damage is converted to ${modID}:Omen. Nl At the end of next turn, lose HP equal to ${modID}:Omen.",
+    "DESCRIPTION": "This turn, all damage is converted to ${modID}:Omen. NL At the end of next turn, lose HP equal to ${modID}:Omen.",
     "UPGRADE_DESCRIPTION": "This turn, all damage is converted to ${modID}:Omen. Nl At the end of next turn, lose HP equal to ${modID}:Omen. NL Retain."
+  },
+
+  "${modID}:CrashingDisaster": {
+    "NAME": "Crashing Disaster",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Omen."
+  },
+
+  "${modID}:NegativeBurst": {
+    "NAME": "Negative Burst",
+    "DESCRIPTION": "Deal damage to ALL enemies equal to !M! times the number of debuffs on ALL combatants"
   }
 }
