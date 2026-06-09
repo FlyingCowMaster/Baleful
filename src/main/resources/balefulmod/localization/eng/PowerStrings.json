@@ -43,5 +43,14 @@
     "DESCRIPTIONS": [
       "This turn, all damage is converted to #bOmen. Next turn, lose HP equal to #bOmen."
     ]
+  },
+
+  "${modID}:Negation": {
+    "NAME": "Negation",
+    "DESCRIPTIONS": [
+      "Negates #b",
+      " buff.",
+      " buffs."
+    ]
   }
 }

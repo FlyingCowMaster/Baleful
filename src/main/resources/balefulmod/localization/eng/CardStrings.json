@@ -206,6 +206,21 @@
 
   "${modID}:NegativeBurst": {
     "NAME": "Negative Burst",
-    "DESCRIPTION": "Deal damage to ALL enemies equal to !M! times the number of debuffs on ALL combatants"
+    "DESCRIPTION": "Deal damage to ALL enemies equal to !M! times the number of debuffs you have"
+  },
+
+  "${modID}:FinalStrike": {
+    "NAME": "Final Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Gain 2 weak and 2 frail"
+  },
+
+  "${modID}:AnxiousGuard": {
+    "NAME": "Anxious Guard",
+    "DESCRIPTION": "Gain !B! block. NL Gain !M! ${modID}:Omen."
+  },
+
+  "${modID}:DepressingAura": {
+    "NAME": "Depressing Aura",
+    "DESCRIPTION": "Apply !M ${modID}:negation to ALL combatants"
   }
 }

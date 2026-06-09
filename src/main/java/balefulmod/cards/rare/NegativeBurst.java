@@ -10,19 +10,19 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import static balefulmod.util.CustomUtils.getAllDebuffsCount;
+import static balefulmod.util.CustomUtils.getDebuffCount;
 
 public class NegativeBurst extends BaseCard {
     public static final String ID = makeID(NegativeBurst.class.getSimpleName());
     private static final CardStats info = new CardStats(
             Baleful.Meta.CARD_COLOR,
-            CardType.SKILL,
+            CardType.ATTACK,
             CardRarity.RARE,
             CardTarget.ALL_ENEMY,
-            1
+            2
     );
-    private static final int MAGIC = 3;
-    private static final int UPG_MAGIC = 4;
+    private static final int MAGIC = 2;
+    private static final int UPG_MAGIC = 1;
 
     public NegativeBurst() {
         super(ID,info);
@@ -32,7 +32,7 @@ public class NegativeBurst extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new DamageAllEnemiesAction(p, getAllDebuffsCount() * magicNumber, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.FIRE));
+        addToBot(new DamageAllEnemiesAction(p, getDebuffCount(p) * magicNumber, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.FIRE));
     }
 
     @Override

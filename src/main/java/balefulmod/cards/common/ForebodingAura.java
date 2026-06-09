@@ -37,7 +37,7 @@ public class ForebodingAura extends BaseCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new VFXAction(new ShockWaveEffect(p.hb.cX, p.hb.cY, Settings.SHADOW_COLOR, ShockWaveEffect.ShockWaveType.CHAOTIC), 0.3f));
         for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
-            addToBot(new ApplyPowerAction(mo, p, new OmenPower(mo, this.magicNumber)));
+            addToBot(new ApplyPowerAction(mo, p, new OmenPower(mo, this.magicNumber), magicNumber, true));
         }
     }
 

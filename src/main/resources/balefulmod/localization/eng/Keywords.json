@@ -34,5 +34,12 @@
       "omen"
     ],
     "DESCRIPTION": "A sign of misfortune to come. Does nothing on its own, but the Baleful has many ways of making use of it. Decreases by 1 at the end of turn."
+  },
+  {
+    "PROPER_NAME": "Negation",
+    "NAMES": [
+      "negation"
+    ],
+    "DESCRIPTION": "Negates buffs"
   }
 ]
