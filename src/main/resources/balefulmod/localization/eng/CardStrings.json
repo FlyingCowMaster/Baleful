@@ -221,6 +221,16 @@
 
   "${modID}:DepressingAura": {
     "NAME": "Depressing Aura",
-    "DESCRIPTION": "Apply !M ${modID}:negation to ALL combatants"
+    "DESCRIPTION": "Apply !M! ${modID}:negation to ALL combatants"
+  },
+
+  "${modID}:SlowDecay": {
+    "NAME": "Slow Decay",
+    "DESCRIPTION": "For the next !M! turns, take half damage from attacks. At the end of each turn, lose 3 HP."
+  },
+
+  "${modID}:ReturnToNothing": {
+    "NAME": "Return To Nothing",
+    "DESCRIPTION": "ALL combatants with ${modID}:Omen >= half of their current HP die."
   }
 }

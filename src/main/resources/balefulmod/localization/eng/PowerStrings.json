@@ -52,5 +52,16 @@
       " buff.",
       " buffs."
     ]
+  },
+
+  "${modID}:SlowDecay": {
+    "NAME": "Slow Decay",
+    "DESCRIPTIONS": [
+      "For #b",
+      " turns, ",
+      " turn, ",
+      "take 1/2 damage from attacks. end of turn lose #b",
+      " HP"
+    ]
   }
 }

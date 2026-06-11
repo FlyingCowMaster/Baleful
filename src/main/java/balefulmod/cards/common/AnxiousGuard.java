@@ -16,7 +16,7 @@ public class AnxiousGuard extends BaseCard {
             Baleful.Meta.CARD_COLOR,
             AbstractCard.CardType.SKILL,
             AbstractCard.CardRarity.COMMON,
-            AbstractCard.CardTarget.ALL,
+            CardTarget.SELF,
             1
     );
     private static final int BLOCK = 9;
